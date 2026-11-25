@@ -1,0 +1,60 @@
+{
+ "cholec80": {
+  "phases": [
+   "Preparation",
+   "Calot triangle dissection",
+   "Clipping and cutting",
+   "Gallbladder dissection",
+   "Gallbladder packaging",
+   "Cleaning and coagulation",
+   "Gallbladder retraction"
+  ],
+  "phase_words": [
+   "preparation",
+   "calot triangle dissection",
+   "clipping and cutting",
+   "gallbladder dissection",
+   "gallbladder packaging",
+   "cleaning and coagulation",
+   "gallbladder retraction"
+  ],
+  "phase_sentences": [
+   "In preparation phase I insert trocars to patient abdomen cavity",
+   "In calot triangle dissection phase I use grasper to hold gallbladder and use hook to expose the hepatic triangle area and cystic duct and cystic artery",
+   "In clip and cut phase I use clipper to clip the cystic duct and artery then use scissor to cut them",
+   "In gallbladder dissection phase I use the hook to dissect the connective tissue between gallbladder and liver",
+   "In gallbladder packaging phase I put the gallbladder into the specimen bag",
+   "In clean and coagulation phase I use suction and irrigation to clear the surgical field and coagulate bleeding vessels",
+   "In gallbladder retraction phase I grasp the specimen bag and remove it from trocar"
+  ]
+ },
+ "autolaparo": {
+  "phases": [
+   "Preparation",
+   "Dividing ligament and peritoneum",
+   "Dividing uterine vessels and ligament",
+   "Transecting vagina",
+   "Specimen removal",
+   "Suturing",
+   "Washing"
+  ],
+  "phase_words": [
+   "preparation",
+   "dividing ligament and peritoneum",
+   "dividing uterine vessels and ligament",
+   "transecting vagina",
+   "specimen removal",
+   "suturing",
+   "washing"
+  ],
+  "phase_sentences": [
+   "In preparation phase the surgeon inserts trocars and inspects the pelvic cavity",
+   "In dividing ligament and peritoneum phase the surgeon divides the round ligament and opens the peritoneum",
+   "In dividing uterine vessels and ligament phase the surgeon coagulates and divides the uterine vessels and ligaments",
+   "In transecting vagina phase the surgeon incises and transects the vaginal cuff around the cervix",
+   "In specimen removal phase the surgeon removes the uterus specimen through the vagina",
+   "In suturing phase the surgeon sutures and closes the vaginal cuff",
+   "In washing phase the surgeon irrigates and aspirates to clean the surgical field"
+  ]
+ }
+}
