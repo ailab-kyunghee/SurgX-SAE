@@ -1,0 +1,522 @@
+{
+ "CausalASFormer_Cholec80": {
+  "20": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.6535,
+     "unique_concepts": 20.0
+    },
+    "test": {
+     "PI": 0.6601,
+     "unique_concepts": 22.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.05,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6527,
+     "unique_concepts": 27.0
+    },
+    "test": {
+     "PI": 0.6633,
+     "unique_concepts": 29.33
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.0,
+     1.0
+    ]
+   }
+  },
+  "40": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.6296,
+     "unique_concepts": 45.0
+    },
+    "test": {
+     "PI": 0.6356,
+     "unique_concepts": 48.0
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.1,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6438,
+     "unique_concepts": 49.67
+    },
+    "test": {
+     "PI": 0.6512,
+     "unique_concepts": 53.33
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.05,
+     1.0
+    ]
+   }
+  },
+  "60": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5873,
+     "unique_concepts": 80.0
+    },
+    "test": {
+     "PI": 0.5904,
+     "unique_concepts": 85.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.2,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6366,
+     "unique_concepts": 84.33
+    },
+    "test": {
+     "PI": 0.6425,
+     "unique_concepts": 89.33
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.1,
+     1.0
+    ]
+   }
+  },
+  "80": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5873,
+     "unique_concepts": 80.0
+    },
+    "test": {
+     "PI": 0.5904,
+     "unique_concepts": 85.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.2,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6366,
+     "unique_concepts": 84.33
+    },
+    "test": {
+     "PI": 0.6425,
+     "unique_concepts": 89.33
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.1,
+     1.0
+    ]
+   }
+  }
+ },
+ "CausalASFormer_AutoLaparo": {
+  "20": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.6072,
+     "unique_concepts": 23.0
+    },
+    "test": {
+     "PI": 0.5857,
+     "unique_concepts": 22.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.02,
+     0.1
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6459,
+     "unique_concepts": 20.33
+    },
+    "test": {
+     "PI": 0.6514,
+     "unique_concepts": 19.67
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.02,
+     0.0
+    ]
+   }
+  },
+  "40": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5817,
+     "unique_concepts": 43.0
+    },
+    "test": {
+     "PI": 0.5874,
+     "unique_concepts": 39.0
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.05,
+     0.1
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.636,
+     "unique_concepts": 56.0
+    },
+    "test": {
+     "PI": 0.6395,
+     "unique_concepts": 60.67
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.02,
+     1.0
+    ]
+   }
+  },
+  "60": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5726,
+     "unique_concepts": 75.0
+    },
+    "test": {
+     "PI": 0.5586,
+     "unique_concepts": 73.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.1,
+     0.1
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6163,
+     "unique_concepts": 90.67
+    },
+    "test": {
+     "PI": 0.6247,
+     "unique_concepts": 93.67
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.05,
+     1.0
+    ]
+   }
+  },
+  "80": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5529,
+     "unique_concepts": 85.0
+    },
+    "test": {
+     "PI": 0.5661,
+     "unique_concepts": 85.0
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.1,
+     0.3
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6163,
+     "unique_concepts": 90.67
+    },
+    "test": {
+     "PI": 0.6247,
+     "unique_concepts": 93.67
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.05,
+     1.0
+    ]
+   }
+  }
+ },
+ "TeCNO_Cholec80": {
+  "20": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.6322,
+     "unique_concepts": 22.0
+    },
+    "test": {
+     "PI": 0.6358,
+     "unique_concepts": 22.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.05,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6642,
+     "unique_concepts": 27.33
+    },
+    "test": {
+     "PI": 0.6717,
+     "unique_concepts": 28.67
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.0,
+     1.0
+    ]
+   }
+  },
+  "40": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.6091,
+     "unique_concepts": 42.0
+    },
+    "test": {
+     "PI": 0.6148,
+     "unique_concepts": 42.0
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.1,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6394,
+     "unique_concepts": 49.0
+    },
+    "test": {
+     "PI": 0.6474,
+     "unique_concepts": 54.33
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.05,
+     1.0
+    ]
+   }
+  },
+  "60": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5548,
+     "unique_concepts": 92.0
+    },
+    "test": {
+     "PI": 0.5593,
+     "unique_concepts": 92.0
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.2,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6101,
+     "unique_concepts": 70.0
+    },
+    "test": {
+     "PI": 0.6173,
+     "unique_concepts": 81.33
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.1,
+     1.0
+    ]
+   }
+  },
+  "80": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5548,
+     "unique_concepts": 92.0
+    },
+    "test": {
+     "PI": 0.5593,
+     "unique_concepts": 92.0
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.2,
+     0.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.5553,
+     "unique_concepts": 94.0
+    },
+    "test": {
+     "PI": 0.5614,
+     "unique_concepts": 112.67
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.2,
+     0.05
+    ]
+   }
+  }
+ },
+ "TeCNO_AutoLaparo": {
+  "20": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.6093,
+     "unique_concepts": 31.0
+    },
+    "test": {
+     "PI": 0.6176,
+     "unique_concepts": 31.0
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.05,
+     0.2
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6453,
+     "unique_concepts": 25.0
+    },
+    "test": {
+     "PI": 0.6524,
+     "unique_concepts": 25.0
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.005,
+     0.5
+    ]
+   }
+  },
+  "40": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5851,
+     "unique_concepts": 62.0
+    },
+    "test": {
+     "PI": 0.5767,
+     "unique_concepts": 61.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.1,
+     0.2
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6298,
+     "unique_concepts": 52.0
+    },
+    "test": {
+     "PI": 0.6406,
+     "unique_concepts": 58.33
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.0,
+     1.0
+    ]
+   }
+  },
+  "60": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5851,
+     "unique_concepts": 62.0
+    },
+    "test": {
+     "PI": 0.5767,
+     "unique_concepts": 61.0
+    },
+    "tau_theta_alpha": [
+     0.05,
+     0.1,
+     0.2
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6245,
+     "unique_concepts": 72.67
+    },
+    "test": {
+     "PI": 0.6361,
+     "unique_concepts": 79.33
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.02,
+     1.0
+    ]
+   }
+  },
+  "80": {
+   "SurgX (Neuron)": {
+    "validation": {
+     "PI": 0.5321,
+     "unique_concepts": 80.0
+    },
+    "test": {
+     "PI": 0.5351,
+     "unique_concepts": 80.0
+    },
+    "tau_theta_alpha": [
+     0.001,
+     0.1,
+     1.0
+    ]
+   },
+   "SurgX-SAE (Latent)": {
+    "validation": {
+     "PI": 0.6116,
+     "unique_concepts": 102.67
+    },
+    "test": {
+     "PI": 0.622,
+     "unique_concepts": 112.33
+    },
+    "tau_theta_alpha": [
+     0.01,
+     0.05,
+     1.0
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "CausalASFormer_Cholec80": {
+  "recognizer": {
+   "accuracy": 0.8859,
+   "agreement_with_recognizer": 1.0,
+   "FVU": null
+  },
+  "SAE reconstruction (seed 0)": {
+   "accuracy": 0.8856,
+   "agreement_with_recognizer": 0.9962,
+   "FVU": 0.0108
+  },
+  "mean activation": {
+   "accuracy": 0.394,
+   "agreement_with_recognizer": 0.377,
+   "FVU": null
+  }
+ },
+ "CausalASFormer_AutoLaparo": {
+  "recognizer": {
+   "accuracy": 0.7635,
+   "agreement_with_recognizer": 1.0,
+   "FVU": null
+  },
+  "SAE reconstruction (seed 0)": {
+   "accuracy": 0.7632,
+   "agreement_with_recognizer": 0.9974,
+   "FVU": 0.0073
+  },
+  "mean activation": {
+   "accuracy": 0.2512,
+   "agreement_with_recognizer": 0.3103,
+   "FVU": null
+  }
+ },
+ "TeCNO_Cholec80": {
+  "recognizer": {
+   "accuracy": 0.8423,
+   "agreement_with_recognizer": 1.0,
+   "FVU": null
+  },
+  "SAE reconstruction (seed 0)": {
+   "accuracy": 0.8412,
+   "agreement_with_recognizer": 0.9869,
+   "FVU": 0.0196
+  },
+  "mean activation": {
+   "accuracy": 0.3938,
+   "agreement_with_recognizer": 0.3538,
+   "FVU": null
+  }
+ },
+ "TeCNO_AutoLaparo": {
+  "recognizer": {
+   "accuracy": 0.8144,
+   "agreement_with_recognizer": 1.0,
+   "FVU": null
+  },
+  "SAE reconstruction (seed 0)": {
+   "accuracy": 0.8176,
+   "agreement_with_recognizer": 0.9879,
+   "FVU": 0.0079
+  },
+  "mean activation": {
+   "accuracy": 0.1138,
+   "agreement_with_recognizer": 0.1154,
+   "FVU": null
+  }
+ }
+}
