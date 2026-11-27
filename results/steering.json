@@ -1,0 +1,1240 @@
+{
+ "CausalASFormer_Cholec80": {
+  "SurgX (Neuron)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 8,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 8,
+       "steered_s1": 0.1119,
+       "steered_s2": 0.5198
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 11,
+       "steered_s1": 0.0324,
+       "steered_s2": 0.2637
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 9,
+       "steered_s1": 0.0613,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 10,
+       "steered_s1": 0.0304,
+       "steered_s2": 0.9672
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 6,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 8.67,
+     "mean_steered_s1": 0.0393,
+     "mean_steered_s2": 0.4585
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 8,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 8,
+       "steered_s1": 0.1119,
+       "steered_s2": 0.5198
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 11,
+       "steered_s1": 0.0324,
+       "steered_s2": 0.2637
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 9,
+       "steered_s1": 0.0613,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 10,
+       "steered_s1": 0.0304,
+       "steered_s2": 0.9672
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 6,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 8.67,
+     "mean_steered_s1": 0.0393,
+     "mean_steered_s2": 0.4585
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 8,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 8,
+       "steered_s1": 0.1119,
+       "steered_s2": 0.5198
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 11,
+       "steered_s1": 0.0324,
+       "steered_s2": 0.2637
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 9,
+       "steered_s1": 0.0613,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 10,
+       "steered_s1": 0.0304,
+       "steered_s2": 0.9672
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 6,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 8.67,
+     "mean_steered_s1": 0.0393,
+     "mean_steered_s2": 0.4585
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 8.67,
+    "mean_steered_s1": 0.0393,
+    "mean_steered_s2": 0.4585
+   }
+  },
+  "SurgX-SAE (Latent)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 3,
+       "steered_s1": 0.0092,
+       "steered_s2": 0.4863
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 48,
+       "steered_s1": 0.7451,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 12,
+       "steered_s1": 0.0345,
+       "steered_s2": 0.5775
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 58,
+       "steered_s1": 0.6721,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 59,
+       "steered_s1": 0.4419,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 19,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 33.17,
+     "mean_steered_s1": 0.3171,
+     "mean_steered_s2": 0.6773
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 3,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 43,
+       "steered_s1": 0.7056,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 16,
+       "steered_s1": 0.3885,
+       "steered_s2": 0.6065
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 38,
+       "steered_s1": 0.7425,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 32,
+       "steered_s1": 0.4502,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 13,
+       "steered_s1": 0.0001,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 24.17,
+     "mean_steered_s1": 0.3812,
+     "mean_steered_s2": 0.6011
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 2,
+       "steered_s1": 0.002,
+       "steered_s2": 0.0093
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 52,
+       "steered_s1": 0.7595,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 13,
+       "steered_s1": 0.0588,
+       "steered_s2": 0.6113
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 34,
+       "steered_s1": 0.737,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 31,
+       "steered_s1": 0.4355,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 18,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 25.0,
+     "mean_steered_s1": 0.3321,
+     "mean_steered_s2": 0.6034
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 27.4467,
+    "mean_steered_s1": 0.3435,
+    "mean_steered_s2": 0.6273
+   }
+  }
+ },
+ "CausalASFormer_AutoLaparo": {
+  "SurgX (Neuron)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 10,
+       "steered_s1": 0.2033,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 8,
+       "steered_s1": 0.0693,
+       "steered_s2": 0.9572
+      },
+      {
+       "target_phase": 3,
+       "concept": "transection of the vagina",
+       "units": 1,
+       "steered_s1": 0.0038,
+       "steered_s2": 0.0166
+      },
+      {
+       "target_phase": 4,
+       "concept": "extract the uterus through the vagina",
+       "units": 1,
+       "steered_s1": 0.0025,
+       "steered_s2": 0.0013
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 9,
+       "steered_s1": 0.0269,
+       "steered_s2": 0.7281
+      },
+      {
+       "target_phase": 6,
+       "concept": "inspect the vaginal cuff",
+       "units": 1,
+       "steered_s1": 0.0051,
+       "steered_s2": 0.0286
+      }
+     ],
+     "mean_units": 5.0,
+     "mean_steered_s1": 0.0518,
+     "mean_steered_s2": 0.4553
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 10,
+       "steered_s1": 0.2033,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 8,
+       "steered_s1": 0.0693,
+       "steered_s2": 0.9572
+      },
+      {
+       "target_phase": 3,
+       "concept": "transection of the vagina",
+       "units": 1,
+       "steered_s1": 0.0038,
+       "steered_s2": 0.0166
+      },
+      {
+       "target_phase": 4,
+       "concept": "extract the uterus through the vagina",
+       "units": 1,
+       "steered_s1": 0.0025,
+       "steered_s2": 0.0013
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 9,
+       "steered_s1": 0.0269,
+       "steered_s2": 0.7281
+      },
+      {
+       "target_phase": 6,
+       "concept": "inspect the vaginal cuff",
+       "units": 1,
+       "steered_s1": 0.0051,
+       "steered_s2": 0.0286
+      }
+     ],
+     "mean_units": 5.0,
+     "mean_steered_s1": 0.0518,
+     "mean_steered_s2": 0.4553
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 10,
+       "steered_s1": 0.2033,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 8,
+       "steered_s1": 0.0693,
+       "steered_s2": 0.9572
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 10,
+       "steered_s1": 0.0345,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "extract the uterus through the vagina",
+       "units": 1,
+       "steered_s1": 0.0025,
+       "steered_s2": 0.0013
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 9,
+       "steered_s1": 0.0269,
+       "steered_s2": 0.7281
+      },
+      {
+       "target_phase": 6,
+       "concept": "inspect the vaginal cuff",
+       "units": 1,
+       "steered_s1": 0.0051,
+       "steered_s2": 0.0286
+      }
+     ],
+     "mean_units": 6.5,
+     "mean_steered_s1": 0.0569,
+     "mean_steered_s2": 0.6192
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 5.5,
+    "mean_steered_s1": 0.0535,
+    "mean_steered_s2": 0.5099
+   }
+  },
+  "SurgX-SAE (Latent)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 28,
+       "steered_s1": 0.7665,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 7,
+       "steered_s1": 0.8908,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 3,
+       "concept": "transection of the vagina",
+       "units": 1,
+       "steered_s1": 0.0105,
+       "steered_s2": 0.3863
+      },
+      {
+       "target_phase": 4,
+       "concept": "extract the uterus through the vagina",
+       "units": 1,
+       "steered_s1": 0.0056,
+       "steered_s2": 0.0926
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 4,
+       "steered_s1": 0.4154,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "inspect the vaginal cuff",
+       "units": 6,
+       "steered_s1": 0.0025,
+       "steered_s2": 0.0041
+      }
+     ],
+     "mean_units": 7.83,
+     "mean_steered_s1": 0.3485,
+     "mean_steered_s2": 0.5805
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 22,
+       "steered_s1": 0.0438,
+       "steered_s2": 0.4389
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 6,
+       "steered_s1": 0.0306,
+       "steered_s2": 0.6256
+      },
+      {
+       "target_phase": 3,
+       "concept": "transection of the vagina",
+       "units": 1,
+       "steered_s1": 0.0025,
+       "steered_s2": 0.0149
+      },
+      {
+       "target_phase": 4,
+       "concept": "extract the uterus through the vagina",
+       "units": 4,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 12,
+       "steered_s1": 0.9412,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "inspect the vaginal cuff",
+       "units": 6,
+       "steered_s1": 0.0007,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 8.5,
+     "mean_steered_s1": 0.1698,
+     "mean_steered_s2": 0.3466
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 32,
+       "steered_s1": 0.0664,
+       "steered_s2": 0.6833
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 13,
+       "steered_s1": 0.0011,
+       "steered_s2": 0.002
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 8,
+       "steered_s1": 0.566,
+       "steered_s2": 0.7478
+      },
+      {
+       "target_phase": 4,
+       "concept": "extract the uterus through the vagina",
+       "units": 1,
+       "steered_s1": 0.0009,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 11,
+       "steered_s1": 0.0473,
+       "steered_s2": 0.9971
+      },
+      {
+       "target_phase": 6,
+       "concept": "inspect the vaginal cuff",
+       "units": 10,
+       "steered_s1": 0.0024,
+       "steered_s2": 0.0
+      }
+     ],
+     "mean_units": 12.5,
+     "mean_steered_s1": 0.114,
+     "mean_steered_s2": 0.405
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 9.61,
+    "mean_steered_s1": 0.2108,
+    "mean_steered_s2": 0.444
+   }
+  }
+ },
+ "TeCNO_Cholec80": {
+  "SurgX (Neuron)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 2,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 6,
+       "steered_s1": 0.1769,
+       "steered_s2": 0.9353
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 8,
+       "steered_s1": 0.1145,
+       "steered_s2": 0.942
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 2,
+       "steered_s1": 0.0627,
+       "steered_s2": 0.2056
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 7,
+       "steered_s1": 0.0778,
+       "steered_s2": 0.4989
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 2,
+       "steered_s1": 0.0015,
+       "steered_s2": 0.0016
+      }
+     ],
+     "mean_units": 4.5,
+     "mean_steered_s1": 0.0722,
+     "mean_steered_s2": 0.4306
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 2,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 6,
+       "steered_s1": 0.1769,
+       "steered_s2": 0.9353
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 8,
+       "steered_s1": 0.1145,
+       "steered_s2": 0.942
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 2,
+       "steered_s1": 0.0627,
+       "steered_s2": 0.2056
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 7,
+       "steered_s1": 0.0778,
+       "steered_s2": 0.4989
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 2,
+       "steered_s1": 0.0015,
+       "steered_s2": 0.0016
+      }
+     ],
+     "mean_units": 4.5,
+     "mean_steered_s1": 0.0722,
+     "mean_steered_s2": 0.4306
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 2,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 6,
+       "steered_s1": 0.1769,
+       "steered_s2": 0.9353
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 8,
+       "steered_s1": 0.1145,
+       "steered_s2": 0.942
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 2,
+       "steered_s1": 0.0627,
+       "steered_s2": 0.2056
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 7,
+       "steered_s1": 0.0778,
+       "steered_s2": 0.4989
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 2,
+       "steered_s1": 0.0015,
+       "steered_s2": 0.0016
+      }
+     ],
+     "mean_units": 4.5,
+     "mean_steered_s1": 0.0722,
+     "mean_steered_s2": 0.4306
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 4.5,
+    "mean_steered_s1": 0.0722,
+    "mean_steered_s2": 0.4306
+   }
+  },
+  "SurgX-SAE (Latent)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 11,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 48,
+       "steered_s1": 0.2342,
+       "steered_s2": 0.8431
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 38,
+       "steered_s1": 0.0925,
+       "steered_s2": 0.5769
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 50,
+       "steered_s1": 0.4674,
+       "steered_s2": 0.9424
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 50,
+       "steered_s1": 0.5037,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 25,
+       "steered_s1": 0.0046,
+       "steered_s2": 0.0076
+      }
+     ],
+     "mean_units": 37.0,
+     "mean_steered_s1": 0.2171,
+     "mean_steered_s2": 0.5617
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 17,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 49,
+       "steered_s1": 0.7843,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 18,
+       "steered_s1": 0.8954,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 40,
+       "steered_s1": 0.2824,
+       "steered_s2": 0.8289
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 30,
+       "steered_s1": 0.5216,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 28,
+       "steered_s1": 0.0052,
+       "steered_s2": 0.0165
+      }
+     ],
+     "mean_units": 30.33,
+     "mean_steered_s1": 0.4148,
+     "mean_steered_s2": 0.6409
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 0,
+       "concept": "insertion of the port",
+       "units": 20,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 1,
+       "concept": "dissection of Calot's triangle",
+       "units": 46,
+       "steered_s1": 0.6771,
+       "steered_s2": 0.9565
+      },
+      {
+       "target_phase": 2,
+       "concept": "clip the cystic artery",
+       "units": 35,
+       "steered_s1": 0.7514,
+       "steered_s2": 0.9985
+      },
+      {
+       "target_phase": 3,
+       "concept": "gallbladder separation from the liver bed",
+       "units": 67,
+       "steered_s1": 0.353,
+       "steered_s2": 0.8692
+      },
+      {
+       "target_phase": 4,
+       "concept": "the gallbladder is placed into the bag",
+       "units": 54,
+       "steered_s1": 0.416,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 6,
+       "concept": "the gallbladder is removed",
+       "units": 40,
+       "steered_s1": 0.0054,
+       "steered_s2": 0.0117
+      }
+     ],
+     "mean_units": 43.67,
+     "mean_steered_s1": 0.3672,
+     "mean_steered_s2": 0.6393
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 37.0,
+    "mean_steered_s1": 0.333,
+    "mean_steered_s2": 0.614
+   }
+  }
+ },
+ "TeCNO_AutoLaparo": {
+  "SurgX (Neuron)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 10,
+       "steered_s1": 0.3041,
+       "steered_s2": 0.7087
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 4,
+       "steered_s1": 0.2742,
+       "steered_s2": 0.5023
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 1,
+       "steered_s1": 0.0244,
+       "steered_s2": 0.2546
+      },
+      {
+       "target_phase": 4,
+       "concept": "the uterus is extracted through the vagina",
+       "units": 1,
+       "steered_s1": 0.0377,
+       "steered_s2": 0.159
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 7,
+       "steered_s1": 0.4506,
+       "steered_s2": 0.8394
+      }
+     ],
+     "mean_units": 4.6,
+     "mean_steered_s1": 0.2182,
+     "mean_steered_s2": 0.4928
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 10,
+       "steered_s1": 0.3041,
+       "steered_s2": 0.7087
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 4,
+       "steered_s1": 0.2742,
+       "steered_s2": 0.5023
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 1,
+       "steered_s1": 0.0244,
+       "steered_s2": 0.2546
+      },
+      {
+       "target_phase": 4,
+       "concept": "the uterus is extracted through the vagina",
+       "units": 1,
+       "steered_s1": 0.0377,
+       "steered_s2": 0.159
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 7,
+       "steered_s1": 0.4506,
+       "steered_s2": 0.8394
+      }
+     ],
+     "mean_units": 4.6,
+     "mean_steered_s1": 0.2182,
+     "mean_steered_s2": 0.4928
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 10,
+       "steered_s1": 0.3041,
+       "steered_s2": 0.7087
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 4,
+       "steered_s1": 0.2742,
+       "steered_s2": 0.5023
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 1,
+       "steered_s1": 0.0244,
+       "steered_s2": 0.2546
+      },
+      {
+       "target_phase": 4,
+       "concept": "the uterus is extracted through the vagina",
+       "units": 1,
+       "steered_s1": 0.0377,
+       "steered_s2": 0.159
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 7,
+       "steered_s1": 0.4506,
+       "steered_s2": 0.8394
+      }
+     ],
+     "mean_units": 4.6,
+     "mean_steered_s1": 0.2182,
+     "mean_steered_s2": 0.4928
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 4.6,
+    "mean_steered_s1": 0.2182,
+    "mean_steered_s2": 0.4928
+   }
+  },
+  "SurgX-SAE (Latent)": {
+   "per_seed": [
+    {
+     "sae_seed": 0,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 39,
+       "steered_s1": 0.601,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 15,
+       "steered_s1": 0.2571,
+       "steered_s2": 0.7812
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 18,
+       "steered_s1": 0.5832,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the uterus is extracted through the vagina",
+       "units": 15,
+       "steered_s1": 0.125,
+       "steered_s2": 0.0063
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 19,
+       "steered_s1": 0.6593,
+       "steered_s2": 1.0
+      }
+     ],
+     "mean_units": 21.2,
+     "mean_steered_s1": 0.4451,
+     "mean_steered_s2": 0.7575
+    },
+    {
+     "sae_seed": 1,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 47,
+       "steered_s1": 0.64,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 11,
+       "steered_s1": 0.1858,
+       "steered_s2": 0.7112
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 26,
+       "steered_s1": 0.2799,
+       "steered_s2": 0.7427
+      },
+      {
+       "target_phase": 4,
+       "concept": "the uterus is extracted through the vagina",
+       "units": 16,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 16,
+       "steered_s1": 0.5024,
+       "steered_s2": 0.9823
+      }
+     ],
+     "mean_units": 23.2,
+     "mean_steered_s1": 0.3216,
+     "mean_steered_s2": 0.6872
+    },
+    {
+     "sae_seed": 2,
+     "phases": [
+      {
+       "target_phase": 1,
+       "concept": "opening of the broad ligament",
+       "units": 55,
+       "steered_s1": 0.6348,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 2,
+       "concept": "coagulate the uterine artery",
+       "units": 18,
+       "steered_s1": 0.5135,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 3,
+       "concept": "incise the vagina",
+       "units": 20,
+       "steered_s1": 0.6232,
+       "steered_s2": 1.0
+      },
+      {
+       "target_phase": 4,
+       "concept": "the uterus is extracted through the vagina",
+       "units": 10,
+       "steered_s1": 0.0,
+       "steered_s2": 0.0
+      },
+      {
+       "target_phase": 5,
+       "concept": "suture the vaginal cuff",
+       "units": 18,
+       "steered_s1": 0.5091,
+       "steered_s2": 0.9982
+      }
+     ],
+     "mean_units": 24.2,
+     "mean_steered_s1": 0.4561,
+     "mean_steered_s2": 0.7996
+    }
+   ],
+   "mean_over_seeds": {
+    "mean_units": 22.8667,
+    "mean_steered_s1": 0.4076,
+    "mean_steered_s2": 0.7481
+   }
+  }
+ }
+}
